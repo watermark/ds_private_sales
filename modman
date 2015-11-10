@@ -1,0 +1,6 @@
+#ds_private_sales
+app/code/community/DS/PrivateSales    app/code/community/DS/PrivateSales
+app/design/frontend/default/default/template/ds/privatesales    app/design/frontend/default/default/template/ds/privatesales
+app/design/frontend/rwd/default/template/ds/privatesales    app/design/frontend/rwd/default/template/ds/privatesales
+app/etc/modules/DS_PrivateSales.xml    app/etc/modules/DS_PrivateSales.xml
+app/locale/de_DE/DS_PrivateSales.csv    app/locale/de_DE/DS_PrivateSales.csv

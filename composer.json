@@ -1,0 +1,20 @@
+{
+	"name": "ds/private_sales",
+	"license": "OSL",
+	"type": "magento-module",
+	"description": "Adds the possibility to hide & lock certain parts of your stores for guests.",
+	"homepage": "https://github.com/watermark/ds_private_sales",
+	"require": {
+		"magento-hackathon/magento-composer-installer": "3.*"
+	},
+	"authors":[
+		{
+			"name": "DesignSliderGbR",
+			"email": "magento@design-slider.de"
+		},
+		{
+			"name": "Bryan Clay",
+			"email": "watermark86@gmail.com"
+		}
+	]
+}
