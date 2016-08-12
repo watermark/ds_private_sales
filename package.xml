@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>DS_PrivateSales</name>
-    <version>1.0.4.2</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
@@ -27,7 +27,10 @@
 &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; To avoid 404 errors in admin please re-login after first installation.&lt;/p&gt;&#xD;
 &lt;p&gt;For more information please visit our &lt;a href="http://www.design-slider.de/magento-onlineshop/magento-extensions/private-sales/"&gt;official extension page&lt;/a&gt; (currently in german only).&lt;/p&gt;&#xD;
 &lt;p&gt;Special Thanks to Psynapse (psynapse.com.au) for supporting this extension.&lt;/p&gt;</description>
-    <notes>1.0.4.2&#xD;
+    <notes>1.0.5&#xD;
+  tested compatibility with 1.9.2.2 and latest patches&#xD;
+&#xD;
+1.0.4.2&#xD;
   fixed broken compatibility for CE &lt; 1.6 by latest changes&#xD;
 &#xD;
 1.0.4.1&#xD;
@@ -66,9 +69,9 @@
 1.0.0&#xD;
   initial release</notes>
     <authors><author><name>Design:Slider GbR</name><user>DesignSliderGbR</user><email>magento@design-slider.de</email></author></authors>
-    <date>2014-11-11</date>
-    <time>05:25:20</time>
-    <contents><target name="magelocale"><dir><dir name="de_DE"><file name="DS_PrivateSales.csv" hash="fcbd4787ff1421feed0f301b93285e88"/></dir></dir></target><target name="magecommunity"><dir name="DS"><dir name="PrivateSales"><dir name="Block"><dir name="Checkout"><dir name="Onepage"><file name="Login.php" hash="f861f5a125029de6dbcfd48326a069a1"/></dir></dir><dir name="Customer"><dir name="Form"><file name="Login.php" hash="c54adb0ff971d5b08abaf94cdf726828"/></dir></dir><file name="Navigation.php" hash="585f907774ac18e7fbefa60f9fb2d746"/><file name="Topmenu.php" hash="41c13dedf4527c26b4f72eeef4a503cf"/></dir><file name="CHANGE.LOG" hash="623f2c76375a9bb04a710ca35ee9240d"/><dir name="Helper"><file name="Data.php" hash="e2657be22d286ab41580db35502ba83e"/></dir><dir name="Model"><file name="Observer.php" hash="b3c447ecade27ca7c8f62e112de43257"/></dir><dir name="controllers"><dir name="Customer"><file name="AccountController.php" hash="f2ad826e1d64b490f19bcc980cbfcbf1"/></dir></dir><dir name="etc"><file name="config.xml" hash="fa7129774f94095888e1a4669df66f7f"/><file name="system.xml" hash="d2fb336529cf2e3245e967b8fc273981"/></dir><dir name="sql"><dir name="ds_privatesales_setup"><file name="upgrade-1.0.1-1.0.2.php" hash="533b2fc7238456b967efe5a4cb1d57fc"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DS_PrivateSales.xml" hash="1b870d4aec398bf9a9d6424cc58656e9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="ds"><dir name="privatesales"><file name="login_ce14_15_16.phtml" hash="f89afa1794bf7aef7fc41bed2bdf3c2b"/><file name="login_ce17_18.phtml" hash="2cd3290ac19117dcae7ad0454c6f7ddd"/><file name="login_ce19.phtml" hash="7cc25c34f1c2d1034aa11843c36faf01"/><file name="opc_ce14_15_16.phtml" hash="a3050dd164da2b002b2aa6fdf4a5174a"/><file name="opc_ce17_18.phtml" hash="abe6960b443776a8119d3e5a4eb849c2"/><file name="opc_ce19.phtml" hash="e2c3d193a621da20f85e2f37c1b1d221"/></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="template"><dir name="ds"><dir name="privatesales"><file name="login_ce19.phtml" hash="3abdfb06d51679f9add50c2eafdce329"/><file name="opc_ce19.phtml" hash="9127b99d123d1d7de77f1f785604dab2"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <date>2015-11-22</date>
+    <time>10:38:53</time>
+    <contents><target name="magelocale"><dir><dir name="de_DE"><file name="DS_PrivateSales.csv" hash="fcbd4787ff1421feed0f301b93285e88"/></dir></dir></target><target name="magecommunity"><dir name="DS"><dir name="PrivateSales"><dir name="Block"><dir name="Checkout"><dir name="Onepage"><file name="Login.php" hash="f861f5a125029de6dbcfd48326a069a1"/></dir></dir><dir name="Customer"><dir name="Form"><file name="Login.php" hash="c54adb0ff971d5b08abaf94cdf726828"/></dir></dir><file name="Navigation.php" hash="585f907774ac18e7fbefa60f9fb2d746"/><file name="Topmenu.php" hash="41c13dedf4527c26b4f72eeef4a503cf"/></dir><file name="CHANGE.LOG" hash="04557e3f1500838a1ecd9117579ac786"/><dir name="Helper"><file name="Data.php" hash="e2657be22d286ab41580db35502ba83e"/></dir><dir name="Model"><file name="Observer.php" hash="b3c447ecade27ca7c8f62e112de43257"/></dir><dir name="controllers"><dir name="Customer"><file name="AccountController.php" hash="f2ad826e1d64b490f19bcc980cbfcbf1"/></dir></dir><dir name="etc"><file name="config.xml" hash="abafa06c8a0f387b37274088f08a4c81"/><file name="system.xml" hash="d2fb336529cf2e3245e967b8fc273981"/></dir><dir name="sql"><dir name="ds_privatesales_setup"><file name="upgrade-1.0.1-1.0.2.php" hash="533b2fc7238456b967efe5a4cb1d57fc"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DS_PrivateSales.xml" hash="1b870d4aec398bf9a9d6424cc58656e9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="ds"><dir name="privatesales"><file name="login_ce14_15_16.phtml" hash="f89afa1794bf7aef7fc41bed2bdf3c2b"/><file name="login_ce17_18.phtml" hash="2cd3290ac19117dcae7ad0454c6f7ddd"/><file name="login_ce19.phtml" hash="7cc25c34f1c2d1034aa11843c36faf01"/><file name="opc_ce14_15_16.phtml" hash="a3050dd164da2b002b2aa6fdf4a5174a"/><file name="opc_ce17_18.phtml" hash="abe6960b443776a8119d3e5a4eb849c2"/><file name="opc_ce19.phtml" hash="e2c3d193a621da20f85e2f37c1b1d221"/></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="template"><dir name="ds"><dir name="privatesales"><file name="login_ce19.phtml" hash="3abdfb06d51679f9add50c2eafdce329"/><file name="opc_ce19.phtml" hash="9127b99d123d1d7de77f1f785604dab2"/></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php><package><name>Mage_Customer</name><channel>core</channel><min>1.4.0.0.13</min><max></max></package><package><name>Mage_Checkout</name><channel>core</channel><min>0.9.5</min><max></max></package></required></dependencies>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php><package><name>Mage_Customer</name><channel>core</channel><min>1.4.0.0.13</min><max/></package><package><name>Mage_Checkout</name><channel>core</channel><min>0.9.5</min><max/></package></required></dependencies>
 </package>

@@ -1,5 +1,8 @@
 DS_PrivateSales
 
+1.0.5
+  tested compatibility with 1.9.2.2 and latest patches
+
 1.0.4.2
   fixed broken compatibility for CE < 1.6 by latest changes
 
